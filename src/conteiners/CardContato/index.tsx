@@ -31,9 +31,9 @@ const CardContato = ({ id, nome: nomeOriginal, email: emailOriginal, numero: num
                 </>
             ) : (
                 <>
-                    <S.Nome>{nome}</S.Nome>
-                    <S.Area>{email}</S.Area>
-                    <S.Area>{numero}</S.Area>
+                    <S.Nome disabled={true}>{nome}</S.Nome>
+                    <S.Area disabled={true}>{email}</S.Area>
+                    <S.Area disabled={true}>{numero}</S.Area>
                 </>
             )}
             <div>

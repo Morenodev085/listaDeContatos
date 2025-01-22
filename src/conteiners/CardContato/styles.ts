@@ -29,6 +29,11 @@ export const Nome = styled.textarea`
     font-weight: bold;
     font-size: 18px;
     margin: 8px;
+    resize: none;
+    text-align: center;
+    border: 0px;
+    background-color: #FCFCFC;
+
 `
 
 export const Area = styled.textarea`
@@ -36,6 +41,12 @@ export const Area = styled.textarea`
     padding: 8px;
     display: block;
     margin-bottom: 8px;
+    resize: none;
+    text-align: center;
+    border: 0px;
+    background-color: #FCFCFC;
+    font-size: large;
+    font-weight: bold;
 `
 
 export const BotaoEditar = styled.button`
