@@ -12,7 +12,7 @@ const CardContato = ({ id, nome: nomeOriginal, email: emailOriginal, numero: num
     const [estaEditando, setEstaEditando] = useState(false)
     const [nome, setnome] = useState(nomeOriginal)
     const [email, setemail] = useState(emailOriginal)
-    const [numero, setnumero] = useState(numeroOriginal)
+    const [numero, setnumero] = useState<number>(0)
 
     useEffect(() => {
         setnome(nomeOriginal)

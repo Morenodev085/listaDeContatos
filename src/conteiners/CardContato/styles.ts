@@ -25,13 +25,13 @@ export const Icone = styled.img`
     background-color: blue;
 `
 
-export const Nome = styled.h2`
+export const Nome = styled.textarea`
     font-weight: bold;
     font-size: 18px;
     margin: 8px;
 `
 
-export const Area = styled.p`
+export const Area = styled.textarea`
     border-radius: 8px;
     padding: 8px;
     display: block;
